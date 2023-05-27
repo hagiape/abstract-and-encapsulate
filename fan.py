@@ -29,3 +29,7 @@ class Fan:
         return self.__color
     def set_color(self, color):
         self.__color = color
+    def get_on(self):
+        return self.__color
+    def set_on(self, on):
+        self.__on = on
