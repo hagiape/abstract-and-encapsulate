@@ -16,7 +16,7 @@ class Fan:
         self.__speed = speed
         self.__radius = radius
         self.__color = color
-        self.__on == on
+        self.__on = on
     def get_speed(self):
         return self.__speed
     def set_speed(self, speed):
@@ -30,6 +30,6 @@ class Fan:
     def set_color(self, color):
         self.__color = color
     def get_on(self):
-        return self.__color
+        return self.__on
     def set_on(self, on):
         self.__on = on
