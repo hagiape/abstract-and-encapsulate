@@ -21,3 +21,7 @@ class Fan:
         return self.__speed
     def set_speed(self, speed):
         self.__speed = speed
+    def get_radius(self):
+        return self.__radius
+    def set_radius(self, radius):
+        self.__radius = radius
