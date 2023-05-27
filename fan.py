@@ -12,8 +12,12 @@ class Fan:
     SLOW = 1
     MEDIUM = 2
     FAST = 3
-    def __init__(self, speed=int(SLOW), radius=float(5), color=str('blue'), on=False):
+    def __init__(self, speed = int(SLOW), radius = float(5), color = str('blue'), on = False):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
         self.__on == on
+    def get_speed(self):
+        return self.__speed
+    def set_speed(self, speed):
+        self.__speed = speed
