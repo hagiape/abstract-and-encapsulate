@@ -9,3 +9,7 @@ user_pet = Pet()
 pet_name = input("What is the name of your pet? ")
 pet_type = input("What kind of an animal is your pet? ")
 pet_age = input("How old is your pet? ")
+
+user_pet.set_name(pet_name)
+user_pet.set_animal_type(pet_type)
+user_pet.set_age(pet_age)
