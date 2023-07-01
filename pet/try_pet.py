@@ -5,3 +5,7 @@
 from pet import Pet
 
 user_pet = Pet()
+
+pet_name = input("What is the name of your pet? ")
+pet_type = input("What kind of an animal is your pet? ")
+pet_age = input("How old is your pet? ")
