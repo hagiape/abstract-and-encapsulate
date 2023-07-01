@@ -4,10 +4,10 @@ fan1 = Fan()
 fan2 = Fan()
 
 fan1.set_speed(Fan.FAST)
-print("The fan speed is " + str(fan1.get_speed()))
+print("The speed of the fan is " + str(fan1.get_speed()))
 
 fan1.set_radius(10.0)
-print("The fan speed is " + str(fan1.get_radius()))
+print("The radius of the fan is " + str(fan1.get_radius()) + " units")
 
 fan1.set_color("yellow")
 print("The color of the fan is " + fan1.get_color())
@@ -19,10 +19,10 @@ else:
     print("The fan is currently off.")
 
 fan2.set_speed(Fan.MEDIUM)
-print("The fan speed is " + str(fan2.get_speed()))
+print("The speed of the fan is " + str(fan2.get_speed()))
 
 fan2.set_radius(5.0)
-print("The fan speed is " + str(fan2.get_radius()))
+print("The radius of the fan is " + str(fan2.get_radius())  + " units")
 
 fan2.set_color("blue")
 print("The color of the fan is " + fan2.get_color())
