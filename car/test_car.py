@@ -21,3 +21,18 @@ print(my_car.get_speed())
 
 my_car.accelerate()
 print(my_car.get_speed())
+
+my_car.brake()
+print(my_car.get_speed())
+
+my_car.brake()
+print(my_car.get_speed())
+
+my_car.brake()
+print(my_car.get_speed())
+
+my_car.brake()
+print(my_car.get_speed())
+
+my_car.brake()
+print(my_car.get_speed())
