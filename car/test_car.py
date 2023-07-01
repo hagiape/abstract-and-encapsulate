@@ -1,6 +1,7 @@
-# Once you have written the class, write a program that creates an object of the class and prompts the user to enter the name, type, and age of his or her pet. 
-# This data should be stored as the object’s attributes. 
-# Use the object’s accessor methods to retrieve the pet’s name, type, and age and display this data on the screen.
+# Next, design a program that creates a Car object then calls the accelerate method five times. 
+# After each call to the accelerate method, get the current speed of the car and display it. 
+# Then call the brake method five times. 
+# After each call to the brake method, get the current speed of the car and display it.
 
 from car import Car
 
