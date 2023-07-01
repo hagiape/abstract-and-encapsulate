@@ -17,3 +17,18 @@ if fan1.get_on == True:
     print("The fan is currently on.")
 else:
     print("The fan is currently off.")
+
+fan2.set_speed(Fan.MEDIUM)
+print("The fan speed is " + str(fan2.get_speed()))
+
+fan2.set_radius(5.0)
+print("The fan speed is " + str(fan2.get_radius()))
+
+fan2.set_color("blue")
+print("The color of the fan is " + fan2.get_color())
+
+fan2.set_on(False)
+if fan2.get_on == True:
+    print("The fan is currently on.")
+else:
+    print("The fan is currently off.")
